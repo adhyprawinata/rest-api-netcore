@@ -1,0 +1,43 @@
+# .NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.log
+*.vscode
+.vs/
+_NetPackages/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Build artifacts
+build/
+publish/
+
+# NuGet Packages
+*.nupkg
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test Results
+TestResults/
+
+# Misc
+*.DS_Store
+Thumbs.db
+
+# Environment variables
+*.env
+
+# Ignore appsettings files that contain secrets
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
